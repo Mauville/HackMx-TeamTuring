@@ -1,0 +1,7 @@
+﻿= Team Turing
+
+== Contributors
+* https://github.com/KevinRuvalcaba[Kevin Ruvalcaba Perez]
+* https://github.com/Dazuam[Daniel Zubieta Ambriz]
+* https://github.com/DazuamFcossio[Fernando Cossio Ramirez]
+* Repo Owner
