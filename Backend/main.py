@@ -21,7 +21,6 @@ total = 0
 
 @app.route('/')
 def chart():
-    image()
     counter = total
     labels = []
     values = [Vector[0],Vector[1],Vector[2],Vector[3], total ]
