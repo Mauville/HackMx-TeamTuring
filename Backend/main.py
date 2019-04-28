@@ -21,6 +21,7 @@ total = 0
 
 @app.route('/')
 def chart():
+    image()
     counter = total
     labels = []
     values = [Vector[0],Vector[1],Vector[2],Vector[3], total ]
@@ -59,6 +60,7 @@ def image():
         personalV = processImage(faces)
         for i in range(4):
             Vector[i] += personalV[i]
+
 
     doc_ref_data = db.reference('/data')
     doc_ref_data.set({
