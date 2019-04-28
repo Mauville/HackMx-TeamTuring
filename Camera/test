@@ -1,0 +1,41 @@
+import boto3
+import json
+import time
+import requests
+import os
+import numpy as np
+import cv2 as cv2
+from utils import Camera
+
+#amazon web services
+s3 = boto3.resource('s3')
+reko = boto3.client('rekognition')
+#settings
+'''s = {
+    'name': "valo-beta",
+    'ip': "10.32.89.135",
+    'port':"sd",
+    'username':"admin",
+    'password':"MAMG940901EN0"
+}'''
+
+s = {
+    'name': "valo-beta",
+    'ip': "0.0.0.0",
+    'port':"8554",
+    'username':"",
+    'password':""
+}
+#create camera object (defined in utils)
+c=Camera(s['name'], s['ip'], s['port'], s['username'], s['password'])
+while True:
+    print("Connecting to " + c.name + " ...")
+    if( c.connect() ):
+        print("Succesfully connected :D")
+        while True:
+            frame = c.read_img()
+            cv2.imshow(c.name, frame)
+            cv2.waitKey(1)
+    else:
+        print("[ERROR] Connection to " + c.name + " failed")
+        time.sleep(10)
