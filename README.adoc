@@ -9,7 +9,7 @@ It uses a custom trained neural network to recognize faces and processes them us
 == For Recruiters
 * Developed and trained a custom *TensorFlow* neural network to capture and recognize human faces from a live video with an accuracy rate of 53%.
 * Utilized the *Google Cloud Platform Vision API* to analyze human faces in search of meaningful demographics. Unfortunately, due to hardware limitations at the hackathon, no reliable results could be gathered.
-* Employed *Firebase* and *Firestore* to store the program's data, enabling Real Time Analytics to be generated from anywhere.
+* Employed *Firebase* and *Firestore* to store the program's data, enabling Real Time Analytics to be accesed from anywhere.
 
 == Screenshots
 
