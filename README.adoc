@@ -1,7 +1,38 @@
-﻿= Team Turing
+﻿= CrowdLytics
+:imagesdir: Images/
+"Google Analytics for the retail store." | Second Place at competition.
+
+
+CrowdLytics is a user experience analytics reporting that works on top of already existing security cameras.
+It uses a custom trained neural network to recognize faces and processes them using Google Vision API, getting store time, basic demographics, mood and other useful information to decision makers, marketing teams and managers. The information that's gathered is completely anonymous, and cannot be linked to a specific person in any way once processed.
+
+== For Recruiters
+* Developed and trained a custom *TensorFlow* neural network to capture and recognize human faces from a live video with an accuracy rate of 53%.
+* Utilized the *Google Cloud Platform Vision API* to analyze human faces in search of meaningful demographics. Unfortunately, due to hardware limitations at the hackathon, no reliable results could be gathered.
+* Employed *Firebase* and *Firestore* to store the program's data, enabling Real Time Analytics to be generated from anywhere.
+
+== Screenshots
+
+.Data Gathered
+image::data.png[A windows explorer window containing multiple files that depict human faces. , width=800]
+
+.Google Storage and Firebase
+image::firebase.png[A picture depicting a Firebase storage instance on the left, showing the face of a young man. On the left, a JSON structure can be seen that shows demographics such as gender, age, mood and others are shown., width=800]
+
+.User Interface Prototype
+image::proto.png[A rough sketch of a material design web interface, width=800]
+
+== Technologies
+
+* Python
+* Flask
+* TensorFlow
+* Google Cloud's Platform Vision API
+* Google Cloud's Platform Firebase 
+* Google Cloud's Platform Firestore
 
 == Contributors
-* https://github.com/KevinRuvalcaba[Kevin Ruvalcaba Perez]
 * https://github.com/Dazuam[Daniel Zubieta Ambriz]
 * https://github.com/DazuamFcossio[Fernando Cossio Ramirez]
-* Repo Owner
+* https://github.com/KevinRuvalcaba[Kevin Ruvalcaba Perez]
+* Repository Owner
