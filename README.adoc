@@ -3,7 +3,7 @@
 "Google Analytics for the retail store." | Second Place at competition.
 
 
-CrowdLytics is a user experience analytics reporting that works on top of already existing security cameras.
+CrowdLytics is a user experience analytics reporting tool that works on top of already existing security cameras.
 It uses a custom trained neural network to recognize faces and processes them using Google Vision API, getting store time, basic demographics, mood and other useful information to decision makers, marketing teams and managers. The information that's gathered is completely anonymous, and cannot be linked to a specific person in any way once processed.
 
 == For Recruiters
