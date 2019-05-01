@@ -33,6 +33,6 @@ image::proto.png[A rough sketch of a material design web interface, width=800]
 
 == Contributors
 * https://github.com/Dazuam[Daniel Zubieta Ambriz]
-* https://github.com/DazuamFcossio[Fernando Cossio Ramirez]
+* https://github.com/Fcossio[Fernando Cossio Ramirez]
 * https://github.com/KevinRuvalcaba[Kevin Ruvalcaba Perez]
 * Repository Owner
